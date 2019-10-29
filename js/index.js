@@ -62,6 +62,7 @@ const changeImg = document.querySelector('.intro img');
 
 const yuh = document.querySelector('.text-content p');
 yuh.addEventListener('copy', () => {
+    event.preventDefault();
     alert('STOP COPYING!')
 });
 
